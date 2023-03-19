@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Can Basmaci" width="80" style="
+            border-radius: inherit;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Can Basmaci">Can Basmacı</h1>
+
+          <p class="title">Junior Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:developerandarchitect@outlook.com" class="contact-link">developerandarchitect@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefon</p>
+
+              <a href="tel:+90-5377282266" class="contact-link">+90 (537) 728-2266</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Doğum Tarihi</p>
+
+              <time datetime="28-05-1998">Mayıs 28, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Konum</p>
+
+              <address>Bahçelievler, İstanbul, TÜRKİYE</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/CanBasmaci98" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/CB25png" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/developerandarchitect/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/cb25dwg/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/developerarchitect/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://github.com/DeveloperArchitect/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          
+        </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Hakkımda</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Eğitim</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolyo</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog (Yakında)</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Bağlantı</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="hakkımda  active" data-page="hakkımda">
+
+        <header>
+          <h2 class="h2 article-title">Ben kimim?</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Merhaba, ben Can. İç mimar olarak başladığım mesleki kariyerime son verip, eğilimim olduğuna inanarak developer olmaya karar verdim.
+            Zor ve karmaşık gözüken kodları ve hataları eğlenerek basitçe çözmeye çalışıyorum.
+
+          </p>
+
+          <p>
+            Benim işim, aslında web sitenizi işlevsel ve kullanıcı dostu ama aynı zamanda çekici bir şekilde sizlere sunabilmek.
+            İnanın ki ben,
+            Kendi siteme verdiğim emeğin daha fazlasını sizlerin sitelerine vermekten mutluluk duyacağım. Artık benim hakkımda,
+            azda olsa bilgiye sahipsiniz.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Peki ben neler mi yapabilirim?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Tasarım</h4>
+
+                <p class="service-item-text">
+                  Modern ve kaliteli bir web sitesi tasarlayıp oluşturabilirim.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Geliştirme</h4>
+
+                <p class="service-item-text">
+                  Sitelerinizin gelişimini yakından takip edebilirim.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobil Uygulamalar</h4>
+
+                <p class="service-item-text">
+                  İos ve Android için henüz yeterli bilgi ve tecrübeye sahip değilim :/
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Fotoğraflar</h4>
+
+                <p class="service-item-text">
+                  Profesyonel seviyede fotoğraflar çekebilir, bunları düzenleyebilir, sitelerinize ekleyebilirim.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Referanslar</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="K.Polina Karaca" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>K.Polina Karaca</h4>
+
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Can'ı kişisel blog sayfamı düzenlemesi için işe aldık. İşi istediğimiz tarihte ve istediğimiz şekilde tamamladı.
+                    Daha önceden edinmiş olduğu deneyimler sayesinde endişelendiğimiz noktalarda bizi rahatlattı.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Burak Çakır" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Burak Çakır</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Çok memnun kaldım. Tüm sorularıma ve sorunlarıma yardımcı oldular. Aklınızda hiç şüphe kalmadan hizmet alabilirsiniz. Tekrardan ekibinize tesekkur ederim
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Hüseyin Dinçer" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hüseyin Dinçer</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Öncelikle aldığım hizmetten memnun kaldım. alanında ileri derecede bilgilere sahip biri. Projenin hazırlanış süreci boyunca hep iletişim kurup bilgi verdi ve projeyi çok güzel hazırlayıp teslim etti. Tekrardan teşekkür ederim..
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Şeyma Gaplan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Şeyma Gaplan</h4>
+                
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Can Bey'den benim için macro botu yazmasını talep ettim. Kendisi çok ilgili, anlayışlı ve bilgili. 3 saat içerisinde istediğim botu yazdı denemelerini beraber yaptık ekleme çıkarmaları halletti. Tavsiye ederim..
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.png" alt="Taner Koçak" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Taner Koçak</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Can hocam, İşinin ehli, bilgisinden faydalanılması gereken bir şahsiyet. Yaklaşım hizmet özverisi kaliteli hizmet ve isteklere kolay hızlı kullanışlı çözümler ve sağlıklı iletişim konusunda müşterinin bütün isteklerini en üst seviyede karşılayan bir hizmet almak gayet güzeldi.
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-6.png" alt="Gürol Sögüt" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gürol Söğüt</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Web sitemizi çok kısa bir süre içerisinde bitirip teslim etti. Diğer çalıştığımız yazılımcılar hazır Wordpress siteler veriyordu. Can bey sıfırdan yaparak kaynak kodlarını da bizimle paylaştı.
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+  
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-7.png" alt="Efe Yildiz" width="60" data-testimonials-avatar>
+                </figure>
+  
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hayrullah Efe Yıldız</h4>
+  
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gayet hızlı bir şekilde programı teslim etti.Kibar ve her konuda yardımcı olduğu için kendisine çok teşekkür ederim.İkinci işimdede mutlaka sizi tercih edeceğim tekrar teşekkürler ...🙏
+                  </p>
+                </div>
+  
+              </div>
+            </li>
+
+          </ul>
+
+
+          
+        </section>
+      </article>
+
+
+      <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">24 Nisan, 2022</time>
+
+              <div data-modal-text>
+                <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, in architecto ratione dolores provident laudantium laboriosam qui debitis odio velit, autem placeat corrupti, inventore repudiandae.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+        
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="eğitim" data-page="eğitim">
+
+        <header>
+          <h2 class="h2 article-title">Kariyer</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Eğitim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Toronto</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Basketbol sayesinde 1 yıl eğitim ve spor bursuna sahip oldum.
+                Bu süreçte iç mimarlık derslerine devam ettim. Junior olarak frelance site tasarımlarının 
+                temelini bu süreçte oluşturdum.
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">İstanbul Arel Üniversitesi</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                Mimari Restorasyon ve çevre tasarımı kazandığım Arel üniversitesi'nde basketbol branşında başarı gösterdim.
+                Gerek okul kulüpleri gerekse ders içerisinde kendimi kanıtladığıma inanıyorum. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bursa Uludağ Üniversitesi</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                Liseden sonra direkt geçiş yaparak uludağ üniversite'sinde pazarlama ve perakende bölümünü ingilizce olarak tamamladım.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Tecrübelerim</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front end Web Geliştiricisi</h4>
+
+              <span>2022 — Günümüz</span>
+
+              <p class="timeline-text">
+                Html & Css            <br>
+                Bootstrap             <br>
+                JavaScript            <br>
+                REACT JS
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Back end Web Geliştiricisi</h4>
+
+              <span>2023 — Eğitim Süreci</span>
+
+              <p class="timeline-text">
+                PYTHON & DJANGO
+              
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">İç mimari ve ev dekorasyon</h4>
+
+              <span>2018 — 2022</span>
+
+              <p class="timeline-text">
+                İç, dış dizayn tasarım kaplama uzmanlığı <br>
+                Ev ve bahçe dekoratörlüğü
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Yeteneklerim</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Tasarım</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Grafik Tasarım</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Yabancı dil (En)</h5>
+                <data value="88">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="35">35%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 35%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolyo" data-page="portfolyo">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Tasarım</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Uygulamalar</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Geliştirme</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Kategori Seçin</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Tasarım</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Uygulamalar</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Geliştirme</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web geliştirme">
+              <a href="https://emsanmilas.com" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="magaza" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Emsan (Mağaza)</h3>
+
+                <p class="project-category">Web Geliştirme</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web geliştirme">
+              <a href="https://hefeyıldız.com" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Efe Yıldız (Kişisel)</h3>
+
+                <p class="project-category">Web Geliştirme</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="https://dosya.co/umeau69crzl0/blog-makale.zip.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blog Makale (click the download)</h3>
+
+                <p class="project-category">Web tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="https://dosya.co/acuoy4xh14l4/iphone-main.rar.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IPhone Main (click the download)</h3>
+
+                <p class="project-category">Web Tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="https://dosya.co/e4v8k4qhoi3a/Teknik_Servis_Sitesi.rar.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Teknik Servis (Freelance)</h3>
+
+                <p class="project-category">Web Tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web tasarım">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.gif" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolyo 6 (click the download)</h3>
+
+                <p class="project-category">Web Tasarım</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web Geliştirme">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.gif" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolyo 7 (click the download)</h3>
+
+                <p class="project-category">Web Geliştirme</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="uygulamalar">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.gif" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolyo 8 (click the download)</h3>
+
+                <p class="project-category">Mobil Uygulamalar</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web geliştirme">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.gif" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolyo 9 (click the download)</h3>
+
+                <p class="project-category">Web Geliştirme</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="bağlantı" data-page="bağlantı">
+
+        <header>
+          <h2 class="h2 article-title">Bağlantı</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6021.743509257054!2d28.85628990447829!3d41.00618009659259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa4b42798bc3d%3A0x3edc7e7b893c2170!2zU2l5YXZ1xZ9wYcWfYSwgQmHFn2FrIFNrLiA2Ny00NywgMzQxODIgQmFow6dlbGlldmxlci_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1677436692689!5m2!1str!2str"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Bağlantı Formu</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="İsim ve Soyisim" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email addresi" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="İletmek istedikleriniz" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Mesajı Gönder</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
